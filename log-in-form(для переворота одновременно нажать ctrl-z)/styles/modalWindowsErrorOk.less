@@ -1,0 +1,139 @@
+.modalWind {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.38);
+}
+
+.invalid-order {
+  border-radius: 3px;
+  width: 360px;
+  height: 240px;
+  margin: 204px auto 204px auto;
+  background: @languages-bg-color;
+  padding-top: 20px;
+  font-family: @font-single;
+  color: @h1-bg-color;
+
+  &__image {
+    width: 72px;
+    height: 72px;
+    background-image: url("../images/error_popup.svg");
+    background-size: cover;
+    margin-left: 144px;
+    margin-right: 144px;
+  }
+
+  &__text-one {
+    width: 192px;
+    height: 16px;
+    margin-top: 16px;
+    margin-right: 84px;
+    margin-left: 84px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+
+  &__text-two {
+    width: 240px;
+    height: 32px;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  &__btn {
+    text-align: center;
+    width: 144px;
+    height: 40px;
+    margin-top: 24px;
+    margin-right: 108px;
+    margin-left: 108px;
+    border: 1px solid #FF9900;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: #FF9900;
+    padding-top: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.congratulations {
+  width: 360px;
+  height: 240px;
+  margin: 204px auto 204px auto;
+  background: @languages-bg-color;
+  padding-top: 20px;
+  font-family: @font-single;
+  color: @h1-bg-color;
+
+  &__image {
+    width: 72px;
+    height: 72px;
+    background-image: url("../images/ok_popup.svg");
+    background-size: cover;
+    margin-left: 144px;
+    margin-right: 144px;
+  }
+
+  &__test-one {
+    width: 192px;
+    height: 16px;
+    margin-top: 16px;
+    margin-right: 84px;
+    margin-left: 84px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__test-two {
+    width: 240px;
+    height: 32px;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  &__btn {
+    margin-top: 24px;
+    margin-right: 98px;
+    margin-left: 98px;
+    border: 1px solid #FF9900;
+    height: 40px;
+    width: 164px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: #FF9900;
+    padding-top: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
